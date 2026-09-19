@@ -1,0 +1,6 @@
+{
+  "name": "KanjiMaster N5 & N4",
+  "description": "Comprehensive JLPT N5 and N4 Kanji learning platform with Bengali, English, and Japanese translations, topic categories, quizzes, SRS review, and audio pronunciation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

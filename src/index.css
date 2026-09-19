@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #FAF7F2;
+    color: #2D2424;
+    font-family: 'Plus Jakarta Sans', 'Anek Bangla', sans-serif;
+  }
+
+  .dark body {
+    background-color: #1A1615;
+    color: #F5F2ED;
+  }
+}
+
+.font-serif-jp {
+  font-family: 'Noto Serif JP', 'Playfair Display', serif;
+}
+
+.font-serif-title {
+  font-family: 'Playfair Display', 'Noto Serif JP', serif;
+}
+
+.bg-artistic-paper {
+  background-color: #FAF7F2;
+}
+
+.dark .bg-artistic-paper {
+  background-color: #1A1615;
+}
+
+.bg-artistic-card {
+  background-color: #FFFFFF;
+}
+
+.dark .bg-artistic-card {
+  background-color: #241F1E;
+}
+
+.bg-artistic-subtle {
+  background-color: #F5F2ED;
+}
+
+.dark .bg-artistic-subtle {
+  background-color: #2D2726;
+}
+
+.text-artistic-red {
+  color: #D2665E;
+}
+
+.bg-artistic-red {
+  background-color: #D2665E;
+}
+
+.border-artistic-subtle {
+  border-color: rgba(45, 36, 36, 0.12);
+}
+
+.dark .border-artistic-subtle {
+  border-color: rgba(245, 242, 237, 0.12);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(45, 36, 36, 0.15);
+  border-radius: 9999px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(245, 242, 237, 0.15);
+}
